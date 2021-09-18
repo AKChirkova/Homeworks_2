@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header {
+    padding: 6px 10px 6px 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+}
+
+.menu-svg {
+    height: 24px;
+    width: 24px;
+    margin: 10.5px 12px;
+    color: #5f6368;
+    fill: currentColor;
+}
+
+.menu-svg:hover{
+    box-shadow: 0 0 5px silver;
+    border-radius: 20px;
+}
+
+.navigation-item {
+    padding-right: 15px;
+    color: #212121;
+}
+
+.enter-button{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 96px;
+    padding: 9px 23px;
+    margin: 0 8px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    height: 290px;
+}
+
+.loupe {
+    color: #9aa0a5;
+    fill: currentColor;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-right: 13px;
+}
+
+.search-container{
+    height: 44;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-border {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+    max-width: 584px;
+}
+.keyboard {
+    height: 14px;
+    width: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.microphone-img {
+    height: 24px;
+    width: 24px;
+    transform-origin: 0px 0px;
+    line-height: 24px;   
+    height: 24px;
+    width: 24px;
+    margin-left: 18px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    padding: 26px 20px 20px;
+}
+
+.search-container > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 34px;
+    width: 447px;
+    margin-right: 11.5px;
+    
+}
+
+.main-button-border {
+    /* background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center; */
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.main-buttons {
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    display: inline-block;
+}
+
+.search-border:hover {
+    box-shadow: 0 0 5px rgba(122,122,122,0.5);
+}
+
+.text-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.text-buttons:hover {
+    border-color: #dfe1e5;
+    box-shadow:0 1px 1px rgba(0,0,0,.16)
+}
+
+/* input{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+} */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+}
+
+.country{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-links{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #70757a;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 47px;
+}
+
+.footer-links div{
+    display: flex;
+    padding: 15px 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color:currentColor;
+    padding: 0 15px;
+    white-space: nowrap;
+    display: block;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.information{
+    height: 16px;
+    min-width: 30%;
+}
+.dioxide-inf{
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+}
+
+.dioxide-inf a{
+    padding: 0;
+}
+
+.service-inf{
+    height: 16px;
+    min-width: 30%;
+    justify-content: flex-end;
+}
